@@ -1,0 +1,85 @@
+body {
+    font-family: 'Calibri';
+}
+
+#form {
+    width: 350px;
+    margin: 30vh auto 0 auto;
+    padding: 30px;
+    background-color: rgb(137,200,46);
+    border-radius: 25px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: rgb(60,60,59);
+}
+
+#form button {
+    background-color: rgba(231,0,100,0.9);
+    color: rgb(60,60,59);
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid rgb(60,60,59);
+}
+
+#form button:hover {
+    background-color: rgba(231,0,100,1);
+    transition: background-color 0.15s;
+}
+
+#form button:active {
+    background-color: rgba(231,0,100,0.8);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.15s;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 550;
+    padding-bottom: 8px;
+}
+
+.input-control label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input-control input{
+    border: 2px solid rgb(60,60,59);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 6px;
+    margin-right: 0;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: rgb(137,200,46);
+}
+
+.input-control.error input {
+    border-color: rgb(231,0,100);
+}
+
+.input-control .error {
+    color: rgb(231,0,100);
+    font-size: 16px;
+    height: 15px;
+    width: 1fr;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.input-control:valid {
+    border-color: rgb(137,200,46);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Simpson - MHR Tech Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+
+            <div class="input-control">
+                <label for="fullName">Name:</label>
+
+                <input id="fullName" name="fullName" type="text" 
+                placeholder="Enter your name here..." autocomplete="name">
+
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email:</label>
+
+                <input id="email" name="email" type="text" 
+                placeholder="Enter your email here..." autocomplete="email">
+
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="card">Card:</label>
+
+                <input id="card" name="card" type="text" inputmode="numeric"
+                placeholder="Enter your 16-digit card number here...">
+
+                <div class="error"></div>
+            </div>
+
+            <div class="button"><button type="submit" id="button">Submit</button></div>
+        </form>
+    </div>
+</body>
+</html>
