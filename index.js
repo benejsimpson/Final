@@ -1,4 +1,4 @@
-const emailDestination = 'b.simpson051102@gmail.com'
+const emailDestination = //Enter Email Here
 
 
 const form = document.getElementById("form")
